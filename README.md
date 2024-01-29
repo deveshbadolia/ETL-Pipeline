@@ -55,6 +55,18 @@ After the update statement is executed, we can see in kafdrop UI under topic: â€
 UPDATE change event in Kafdrop UI
 Similarly if we make an INSERT/DELETE statement, we will see new messages getting published to the same topic.
 
+# Output
+![Screenshot (7)](https://github.com/deveshbadolia/ETL-Pipeline-/assets/124484199/34da1352-ff67-4155-aa20-c7dd174cf521)
+
+![Screenshot (6)](https://github.com/deveshbadolia/ETL-Pipeline-/assets/124484199/cf7ff0c7-44c6-41ff-9d98-108cbc4cfe92)
+
+![Screenshot (5)](https://github.com/deveshbadolia/ETL-Pipeline-/assets/124484199/f483ddc7-ccd7-4e53-87ad-13cdbfab41f1)
+
+![Screenshot (4)](https://github.com/deveshbadolia/ETL-Pipeline-/assets/124484199/8ed65032-90c2-4861-acce-073947006ac9)
+
+
+
+
 # Conclusion
 We can write consumers for the above topic (dbserver1.inventor.customers) and trigger various actions(emails etc) based on change events (insert, update, delete).
 This is how we get automated messages for various stages of our delivery items (Amazon, Flipkart, Delhivery)
