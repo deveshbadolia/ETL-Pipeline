@@ -32,7 +32,9 @@ Note: We are passing hostname as ‘postgres’ which is the container name in d
 
 Save above in register-postgres.json 
 Then run this command 
+
 Sudo curl -i -X POST -H "Accept:application/json" -H  "Content-Type:application/json" http://localhost:8083/connectors/ -d @register-postgres.json
+
 Here we want to get all change events (INSERT, UPDATE, DELETE) for customers table in inventory schema. All the changes will be published to our kafka topic.
 
 Visualize change events
