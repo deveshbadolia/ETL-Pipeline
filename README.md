@@ -2,6 +2,15 @@
 
 # ETL PIPELINE (POSTGRES + KAFKA + KAFKA UI + DEBEZIUM POSTGRES CONNECTOR)
 
+
+![image](https://github.com/deveshbadolia/ETL-Pipeline-/assets/124484199/3a71f4e6-b549-4a94-8585-47e98dc72f49)
+
+
+
+
+
+
+
 Kafka Cluster: A Kafka cluster is a system that consists of several Brokers, Topics, and Partitions for both. The key objective is to distribute workloads equally among replicas and Partitions. We will provision 2 kafka nodes first node runs on port 9092 and second on 9093. Internal listener ports are 29092, 29093 and external are 9092, 9093 . This article explains more about kafka listeners.
 
 Kafdrop: Kafdrop is a web UI for viewing Kafka topics and browsing consumer groups. The tool displays information such as brokers, topics, partitions, consumers, and lets you view messages. We will run kafdrop on default 9000 port (Also we use provectus ui image).
